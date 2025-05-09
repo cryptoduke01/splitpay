@@ -5,9 +5,10 @@ import App from './App.jsx'
 import { CivicAuthProvider } from '@civic/auth-web3/react'
 import { Buffer } from 'buffer'
 
-window.Buffer = window.Buffer || Buffer
-
 const civicClientId = import.meta.env.VITE_CIVIC_CLIENT_ID;
+
+if (!window.Buffer) window.Buffer = Buffer;
+if (!globalThis.Buffer) globalThis.Buffer = Buffer;
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
