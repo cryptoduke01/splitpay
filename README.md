@@ -4,13 +4,13 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 **SplitPay** is a next-generation web app that lets you split bills and send payments to friends instantly on the Solana blockchain. With a beautiful glassmorphism UI, real-time wallet integration, and robust security powered by [Civic Auth](https://www.civic.com/), SplitPay makes group payments seamless, transparent, and fun.
 
 ---
 
-## ✨ Features
+## Features
 
 - **Split bills** with anyone by entering names and Solana wallet addresses
 - **Instant payments** in SOL, directly on Solana devnet
@@ -22,9 +22,12 @@
 
 ---
 
-## 🖼️ Screenshots
+## Screenshots
 
-> _Add your screenshots here!_
+![Home Page](./src/assets/home.jpg)
+![Split Bill Form](./src/assets/split.jpg)
+
+> Note: Add your actual screenshots to a `screenshots` folder in the root directory. Recommended image formats: PNG or WebP.
 
 ---
 
@@ -71,13 +74,13 @@ The app will be available at [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## ⚙️ Environment Variables
+## Environment Variables
 
 - `VITE_CIVIC_CLIENT_ID` — Your Civic Auth client ID (**required**)
 
 ---
 
-## 💡 Usage
+## Usage
 
 - **Split a bill:** Enter the total amount and add people with their Solana wallet addresses.
 - **Send payments:** Click "Pay Now" to send SOL to each recipient securely.
@@ -86,7 +89,7 @@ The app will be available at [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 🧑‍💻 Tech Stack
+##  Tech Stack
 
 - **React 19** + **Vite**
 - **Tailwind CSS** for styling
@@ -96,20 +99,20 @@ The app will be available at [http://localhost:5173](http://localhost:5173)
 
 ---
 
-## 🔒 Security
+## Security
 
 - All authentication and user management is handled by [Civic Auth](https://www.civic.com/), ensuring secure, decentralized access.
 - Sensitive keys (like the Civic client ID) are stored in environment variables and never hardcoded.
 
 ---
 
-## 🙏 Credits
+## Credits
 
 - **Powered by Civic Auth** — [Civic](https://www.civic.com/)
-- Built with ❤️ by [Your Name or Team]
+- Built with ❤️ by Duke
 
 ---
 
-## 📢 Powered by Civic Auth
+## Powered by Civic Auth
 
 > _SplitPay is proudly powered by Civic Auth for secure, decentralized authentication and user management._
